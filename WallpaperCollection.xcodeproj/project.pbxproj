@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C131CB7292E921300B17CC5 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C131CB6292E921300B17CC5 /* CustomTabView.swift */; };
+		7C34E6B8292B95B800338182 /* WallpaperDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34E6B7292B95B800338182 /* WallpaperDetailView.swift */; };
+		7C34E6BD292B9DA600338182 /* favourite.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C34E6BC292B9DA600338182 /* favourite.json */; };
+		7C78B440292551CD0065D37B /* WallpapersLocals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C78B43F292551CD0065D37B /* WallpapersLocals.swift */; };
+		7CA24EEB2925402700B5690C /* WallpaperCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA24EEA2925402700B5690C /* WallpaperCollectionApp.swift */; };
+		7CA24EED2925402700B5690C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA24EEC2925402700B5690C /* ContentView.swift */; };
+		7CA24EEF2925402900B5690C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA24EEE2925402900B5690C /* Assets.xcassets */; };
+		7CA24EF22925402900B5690C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA24EF12925402900B5690C /* Preview Assets.xcassets */; };
+		7CA24EFA2925406100B5690C /* WallpapersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA24EF92925406100B5690C /* WallpapersView.swift */; };
+		7CA24EFC292540EF00B5690C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA24EFB292540EF00B5690C /* FavoritesView.swift */; };
+		7CA24EFE2925422700B5690C /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA24EFD2925422700B5690C /* data.plist */; };
+		7CA24F012925439400B5690C /* WallpapersLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA24F002925439400B5690C /* WallpapersLocal.swift */; };
+		7CAC5F66293F9811000A446F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7CAC5F65293F9811000A446F /* SDWebImageSwiftUI */; };
+		7CAC5F6C293F9889000A446F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7CAC5F6B293F9889000A446F /* Lottie */; };
+		7CD98CFF293A4DF80011E9BD /* unfavorite.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD98CFE293A4DF80011E9BD /* unfavorite.json */; };
+		7CD98D02293A52F40011E9BD /* WallpaperApiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD98D01293A52F40011E9BD /* WallpaperApiDetail.swift */; };
+		7CE4F6E9292E5C690058EFA0 /* download.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CE4F6E8292E5C690058EFA0 /* download.json */; };
+		7CE4F6EB292E5ED70058EFA0 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4F6EA292E5ED70058EFA0 /* LottieView.swift */; };
+		7CE4F6ED292E654B0058EFA0 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4F6EC292E654B0058EFA0 /* ImageSaver.swift */; };
+		7CE4F6EF292E6D000058EFA0 /* WallpaperAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4F6EE292E6D000058EFA0 /* WallpaperAPI.swift */; };
+		7CF3DB76293A61C9008FEAC6 /* CircleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3DB75293A61C9008FEAC6 /* CircleButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C131CB6292E921300B17CC5 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		7C34E6B7292B95B800338182 /* WallpaperDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperDetailView.swift; sourceTree = "<group>"; };
+		7C34E6BC292B9DA600338182 /* favourite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favourite.json; sourceTree = "<group>"; };
+		7C78B43F292551CD0065D37B /* WallpapersLocals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpapersLocals.swift; sourceTree = "<group>"; };
+		7CA24EE72925402700B5690C /* WallpaperCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallpaperCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA24EEA2925402700B5690C /* WallpaperCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCollectionApp.swift; sourceTree = "<group>"; };
+		7CA24EEC2925402700B5690C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CA24EEE2925402900B5690C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA24EF12925402900B5690C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CA24EF92925406100B5690C /* WallpapersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpapersView.swift; sourceTree = "<group>"; };
+		7CA24EFB292540EF00B5690C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		7CA24EFD2925422700B5690C /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		7CA24F002925439400B5690C /* WallpapersLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpapersLocal.swift; sourceTree = "<group>"; };
+		7CD98CFE293A4DF80011E9BD /* unfavorite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = unfavorite.json; sourceTree = "<group>"; };
+		7CD98D01293A52F40011E9BD /* WallpaperApiDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallpaperApiDetail.swift; sourceTree = "<group>"; };
+		7CE4F6E8292E5C690058EFA0 /* download.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = download.json; sourceTree = "<group>"; };
+		7CE4F6EA292E5ED70058EFA0 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		7CE4F6EC292E654B0058EFA0 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		7CE4F6EE292E6D000058EFA0 /* WallpaperAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperAPI.swift; sourceTree = "<group>"; };
+		7CF3DB75293A61C9008FEAC6 /* CircleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA24EE42925402700B5690C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAC5F66293F9811000A446F /* SDWebImageSwiftUI in Frameworks */,
+				7CAC5F6C293F9889000A446F /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CA24EDE2925402700B5690C = {
+			isa = PBXGroup;
+			children = (
+				7CA24EE92925402700B5690C /* WallpaperCollection */,
+				7CA24EE82925402700B5690C /* Products */,
+				7CAC5F5A293F7015000A446F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CA24EE82925402700B5690C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA24EE72925402700B5690C /* WallpaperCollection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CA24EE92925402700B5690C /* WallpaperCollection */ = {
+			isa = PBXGroup;
+			children = (
+				7CA24EEA2925402700B5690C /* WallpaperCollectionApp.swift */,
+				7CA24EFF2925437100B5690C /* Model */,
+				7CA24EF82925404C00B5690C /* View */,
+				7CA24EEE2925402900B5690C /* Assets.xcassets */,
+				7CD98D00293A4E2D0011E9BD /* Animations */,
+				7CA24EFD2925422700B5690C /* data.plist */,
+				7CA24EF02925402900B5690C /* Preview Content */,
+			);
+			path = WallpaperCollection;
+			sourceTree = "<group>";
+		};
+		7CA24EF02925402900B5690C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CA24EF12925402900B5690C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CA24EF82925404C00B5690C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7CA24EEC2925402700B5690C /* ContentView.swift */,
+				7CB00D412930E03300D62339 /* TabView */,
+				7CA24EF92925406100B5690C /* WallpapersView.swift */,
+				7CA24EFB292540EF00B5690C /* FavoritesView.swift */,
+				7CD98D01293A52F40011E9BD /* WallpaperApiDetail.swift */,
+				7C34E6B7292B95B800338182 /* WallpaperDetailView.swift */,
+				7CE4F6EA292E5ED70058EFA0 /* LottieView.swift */,
+				7CF3DB74293A61B2008FEAC6 /* Styling */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7CA24EFF2925437100B5690C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C78B43F292551CD0065D37B /* WallpapersLocals.swift */,
+				7CA24F002925439400B5690C /* WallpapersLocal.swift */,
+				7CE4F6EC292E654B0058EFA0 /* ImageSaver.swift */,
+				7CE4F6EE292E6D000058EFA0 /* WallpaperAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CAC5F5A293F7015000A446F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CB00D412930E03300D62339 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				7C131CB6292E921300B17CC5 /* CustomTabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		7CD98D00293A4E2D0011E9BD /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				7C34E6BC292B9DA600338182 /* favourite.json */,
+				7CD98CFE293A4DF80011E9BD /* unfavorite.json */,
+				7CE4F6E8292E5C690058EFA0 /* download.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		7CF3DB74293A61B2008FEAC6 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				7CF3DB75293A61C9008FEAC6 /* CircleButtonStyle.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CA24EE62925402700B5690C /* WallpaperCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA24EF52925402900B5690C /* Build configuration list for PBXNativeTarget "WallpaperCollection" */;
+			buildPhases = (
+				7CA24EE32925402700B5690C /* Sources */,
+				7CA24EE42925402700B5690C /* Frameworks */,
+				7CA24EE52925402700B5690C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallpaperCollection;
+			packageProductDependencies = (
+				7CAC5F65293F9811000A446F /* SDWebImageSwiftUI */,
+				7CAC5F6B293F9889000A446F /* Lottie */,
+			);
+			productName = WallpaperCollection;
+			productReference = 7CA24EE72925402700B5690C /* WallpaperCollection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CA24EDF2925402700B5690C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7CA24EE62925402700B5690C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7CA24EE22925402700B5690C /* Build configuration list for PBXProject "WallpaperCollection" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CA24EDE2925402700B5690C;
+			packageReferences = (
+				7CBD868529310F7B00EEA649 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				7CAC5F64293F9811000A446F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				7CAC5F6A293F9889000A446F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 7CA24EE82925402700B5690C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CA24EE62925402700B5690C /* WallpaperCollection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CA24EE52925402700B5690C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA24EFE2925422700B5690C /* data.plist in Resources */,
+				7CA24EF22925402900B5690C /* Preview Assets.xcassets in Resources */,
+				7CD98CFF293A4DF80011E9BD /* unfavorite.json in Resources */,
+				7CA24EEF2925402900B5690C /* Assets.xcassets in Resources */,
+				7C34E6BD292B9DA600338182 /* favourite.json in Resources */,
+				7CE4F6E9292E5C690058EFA0 /* download.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA24EE32925402700B5690C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD98D02293A52F40011E9BD /* WallpaperApiDetail.swift in Sources */,
+				7CA24EFC292540EF00B5690C /* FavoritesView.swift in Sources */,
+				7C34E6B8292B95B800338182 /* WallpaperDetailView.swift in Sources */,
+				7CA24EED2925402700B5690C /* ContentView.swift in Sources */,
+				7CF3DB76293A61C9008FEAC6 /* CircleButtonStyle.swift in Sources */,
+				7CA24F012925439400B5690C /* WallpapersLocal.swift in Sources */,
+				7CE4F6ED292E654B0058EFA0 /* ImageSaver.swift in Sources */,
+				7CA24EFA2925406100B5690C /* WallpapersView.swift in Sources */,
+				7C78B440292551CD0065D37B /* WallpapersLocals.swift in Sources */,
+				7C131CB7292E921300B17CC5 /* CustomTabView.swift in Sources */,
+				7CE4F6EF292E6D000058EFA0 /* WallpaperAPI.swift in Sources */,
+				7CA24EEB2925402700B5690C /* WallpaperCollectionApp.swift in Sources */,
+				7CE4F6EB292E5ED70058EFA0 /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CA24EF32925402900B5690C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CA24EF42925402900B5690C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA24EF62925402900B5690C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WallpaperCollection/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Want to save wallpaper to photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FilipaIvankovicLucijanPavic.WallpaperCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CA24EF72925402900B5690C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WallpaperCollection/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Want to save wallpaper to photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FilipaIvankovicLucijanPavic.WallpaperCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CA24EE22925402700B5690C /* Build configuration list for PBXProject "WallpaperCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA24EF32925402900B5690C /* Debug */,
+				7CA24EF42925402900B5690C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA24EF52925402900B5690C /* Build configuration list for PBXNativeTarget "WallpaperCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA24EF62925402900B5690C /* Debug */,
+				7CA24EF72925402900B5690C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7CAC5F64293F9811000A446F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		7CAC5F6A293F9889000A446F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		7CBD868529310F7B00EEA649 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7CAC5F65293F9811000A446F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CBD868529310F7B00EEA649 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		7CAC5F6B293F9889000A446F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CAC5F6A293F9889000A446F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7CA24EDF2925402700B5690C /* Project object */;
+}

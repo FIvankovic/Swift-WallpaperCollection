@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dataSource</key>
+	<string>local</string>
+	<key>wallpapersLocals</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Golden Sand on White Background</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>sand</string>
+			<key>tag2</key>
+			<string>white</string>
+			<key>tag3</key>
+			<string>abstract</string>
+			<key>source</key>
+			<string>https://images.pexels.com/photos/4046718/pexels-photo-4046718.jpeg</string>
+			<key>author</key>
+			<string>Karolina Grabowska</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Foggy Forest</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>forest</string>
+			<key>tag2</key>
+			<string>fog</string>
+			<key>tag3</key>
+			<string>environment</string>
+			<key>source</key>
+			<string>https://images.pexels.com/photos/1261731/pexels-photo-1261731.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2</string>
+			<key>author</key>
+			<string>Stephan Seeber</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Person with pink smoke grenade</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>smoke grenade</string>
+			<key>tag2</key>
+			<string>hooded person</string>
+			<key>tag3</key>
+			<string>people</string>
+			<key>source</key>
+			<string>https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=960&amp;q=80</string>
+			<key>author</key>
+			<string>Warren Wong</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strawberries</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>strawberry</string>
+			<key>tag2</key>
+			<string>fruit</string>
+			<key>tag3</key>
+			<string>red</string>
+			<key>source</key>
+			<string>https://images.unsplash.com/photo-1574856344991-aaa31b6f4ce3?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1935&amp;q=80</string>
+			<key>author</key>
+			<string>ZaiB Tse</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Crab Beach Sundown</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>crab</string>
+			<key>tag2</key>
+			<string>beach</string>
+			<key>tag3</key>
+			<string>animals</string>
+			<key>source</key>
+			<string>https://images.unsplash.com/photo-1557418412-bb73f8fe262b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80</string>
+			<key>author</key>
+			<string>Alejandro Alas</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Crab on Beach</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>crab</string>
+			<key>tag2</key>
+			<string>beach</string>
+			<key>tag3</key>
+			<string>animals</string>
+			<key>source</key>
+			<string>https://images.unsplash.com/photo-1625248070236-787eb374e84f?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80</string>
+			<key>author</key>
+			<string>hanzife</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Wallpaper0</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>rocks</string>
+			<key>tag2</key>
+			<string>beach</string>
+			<key>tag3</key>
+			<string>scenery</string>
+			<key>source</key>
+			<string>Unsplash</string>
+			<key>author</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Wallpaper1</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>mountains</string>
+			<key>tag2</key>
+			<string>snow</string>
+			<key>tag3</key>
+			<string>scenery</string>
+			<key>source</key>
+			<string>Unsplash</string>
+			<key>author</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Snow Covered Mountain</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>mountain</string>
+			<key>tag2</key>
+			<string>snow</string>
+			<key>tag3</key>
+			<string>environment</string>
+			<key>source</key>
+			<string>https://images.unsplash.com/photo-1612450639537-d44bc045efc7?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80</string>
+			<key>author</key>
+			<string>Sead Dedić</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Koi Fishes</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>koi</string>
+			<key>tag2</key>
+			<string>fish</string>
+			<key>tag3</key>
+			<string>animals</string>
+			<key>source</key>
+			<string>https://images.unsplash.com/photo-1551646333-72fe782d16b0?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80</string>
+			<key>author</key>
+			<string>David Dvořáček</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Swan</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>swan</string>
+			<key>tag2</key>
+			<string>bird</string>
+			<key>tag3</key>
+			<string>animal</string>
+			<key>source</key>
+			<string>https://images.pexels.com/photos/13286992/pexels-photo-13286992.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2</string>
+			<key>author</key>
+			<string>Julius Weidenauer</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jellyfish</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>deep sea</string>
+			<key>tag2</key>
+			<string>animals</string>
+			<key>tag3</key>
+			<string>dark image</string>
+			<key>source</key>
+			<string>https://images.pexels.com/photos/13981667/pexels-photo-13981667.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2</string>
+			<key>author</key>
+			<string>Jan Kopřiva</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Aesthetic flying astronaut in space</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>space</string>
+			<key>tag2</key>
+			<string>astronaut</string>
+			<key>tag3</key>
+			<string>people</string>
+			<key>source</key>
+			<string>https://wallpapers.com/wallpapers/aesthetic-flying-astronaut-for-iphone-o57044rqm2y5e7lk.html?embed=true</string>
+			<key>author</key>
+			<string>bobbi</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Falling Anime Girl</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>art</string>
+			<key>tag2</key>
+			<string>city</string>
+			<key>tag3</key>
+			<string>anime</string>
+			<key>source</key>
+			<string>https://wallpapers.com/wallpapers/falling-anime-girl-iphone-lhe0osq52ipgttgl.html</string>
+			<key>author</key>
+			<string>edmund
+edmund</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>White Rabbit And Shortcake</string>
+			<key>imageType</key>
+			<string>.jpg</string>
+			<key>tag1</key>
+			<string>bunny</string>
+			<key>tag2</key>
+			<string>strawberry</string>
+			<key>tag3</key>
+			<string>cute</string>
+			<key>source</key>
+			<string>https://wallpapers.com/wallpapers/white-rabbit-and-shortcake-cartoon-iphone-h01nx4vov4l6oam2.html</string>
+			<key>author</key>
+			<string>side</string>
+		</dict>
+	</array>
+</dict>
+</plist>
